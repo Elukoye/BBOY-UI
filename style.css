@@ -1,14 +1,51 @@
 /* header section */
 
+.header-section{
+  background-color: #e5e9ea;
+}
 .menu{
   display: flex;
   align-content: center;
   justify-content:space-between;
 }
-.menu li{
+.menu li ,.icons li {
   font-size:1rem;
   font-weight: bold;
   text-align: center;
   padding: 1rem;
 
+}
+.image-section{
+  background-color:  #2b99be;
+ 
+}
+.icons{
+  display: flex;
+  justify-content: space-around;
+}
+/* section-section */
+.sections{
+  background-color:  #afd6d3 ;
+}
+.media-body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:0.8rem;
+  font-weight: 500;
+
+}
+.add-button{
+  color: #33bf03 ;
+  
+}
+span{
+  font-size:0.6rem;
+}
+.media-body h6{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:0.9rem;
+}
+.minus-button{
+  color: #f40f0c ;
 }
